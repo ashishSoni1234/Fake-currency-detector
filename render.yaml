@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: fake-currency-detector
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    repo: https://github.com/ashishSoni1234/Fake-currency-detector
+    branch: main
+    autoDeploy: true
